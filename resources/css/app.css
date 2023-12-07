@@ -1,0 +1,19 @@
+/* Reset */
+@import 'tailwindcss/base';
+@import 'reset';
+
+/* Components */
+@import 'tailwindcss/components';
+@import 'buttons';
+@import 'form';
+
+/* Utilities */
+@import 'tailwindcss/utilities';
+
+.filter-blue{
+    filter: invert(5%) sepia(77%) saturate(5087%) hue-rotate(233deg) brightness(107%) contrast(97%);
+}
+
+.filter-white{
+    filter: invert(97%) sepia(100%) saturate(13%) hue-rotate(37deg) brightness(107%) contrast(101%);
+}
